@@ -11,7 +11,7 @@ namespace TriimAudio
         {
             try
             {
-                audiohelp.WavFileUtils.TrimWavFile(@"c:\temp\bettywork\betty_blue_work.wav", @"c:\temp\bettywork\betty_blue_work22.wav", TimeSpan.FromSeconds(15), TimeSpan.FromSeconds(15));
+                audiohelp.WavFileUtils.TrimWavFile(@"c:\temp\input.wav", @"c:\temp\output.wav", TimeSpan.FromSeconds(15), TimeSpan.FromSeconds(15));
             }
             catch(Exception ex)
             {
